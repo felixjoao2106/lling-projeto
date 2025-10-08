@@ -2,6 +2,9 @@ const express = require('express');
 const session = require('express-session');
 const app = express();
 
+// Conexão com o banco (adicione esta linha)
+require('./config/database');
+
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

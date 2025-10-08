@@ -2,11 +2,16 @@ const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/authController');
 
-// Rotas de visualização (front-end depois)
-router.get('/login', authController.showLogin);
-router.get('/register', authController.showRegister);
+// Rotas de visualização
+router.get('/login', (req, res) => {
+    res.send('Página de Login');
+});
 
-// Rotas de API (back-end agora)
+router.get('/register', (req, res) => {
+    res.send('Página de Cadastro');
+});
+
+// Rotas de API
 router.post('/api/register', authController.register);
 router.post('/api/login', authController.login);
 
