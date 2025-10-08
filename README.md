@@ -1,4 +1,4 @@
-# 📸 LLing – Portfólio de Fotógrafos
+#LLing – Portfólio de Fotógrafos
 
 > Projeto de TCC desenvolvido na **ETEC Bartolomeu Bueno da Silva**  
 > Curso Técnico em Informática
@@ -50,19 +50,20 @@ O sistema permite a criação de perfis personalizados e gerenciamento de galeri
 
 ---
 
+<!--
 ## 🖼️ Prévia do Projeto
 
 <p align="center">
   <img src="./assets/img/preview.png" alt="Preview do LLing" width="700px">
 </p>
-
+-->
 ---
 
-## 👥 Equipe de Desenvolvimento
+##  Equipe de Desenvolvimento
 
-- João Felix Aizza  
-- Leandro de Paula  
-- Pedro Felix Aizza  
+- **João Felix Aizza (Back-and)**
+- **Leandro de Paula (Front-and)**  
+- **Pedro Felix Aizza (Documentação & Front-and)**  
 
 ---
 
