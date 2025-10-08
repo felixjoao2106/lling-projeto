@@ -1,12 +1,18 @@
 const express = require('express');
+const session = require('express-session');
 const app = express();
 
-app.set('view engine', 'hbs');
-app.use(express.static('public'));
+// Middlewares
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(session({
+    secret: 'lling-secret',
+    resave: false,
+    saveUninitialized: false
+}));
 
-app.get('/', (req, res) => {
-    res.render('home', {title: 'LLING'});
-});
+// Rotas
+app.use('/', require('./routes/authRoutes'));
 
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
