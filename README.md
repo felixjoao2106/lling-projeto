@@ -32,8 +32,8 @@ O sistema permite a criação de perfis personalizados e gerenciamento de galeri
 
 ### ⚙️ Back-end
 <p align="left">
-  <img src="./assets/img/node.jpg" width="70" height="70" alt="Node.js"/>
-  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="70" height="70"/>
+  &nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="60" height="60" alt="Express"/>
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60" alt="Python"/>
